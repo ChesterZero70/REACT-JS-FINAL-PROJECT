@@ -1,0 +1,44 @@
+#root {
+  max-width: flex;
+  width: flex;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.mi-navbar {
+  background-color: #ffffff00;
+  color: rgb(0, 0, 0);
+}
+
+#background-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out;
+  background-repeat: no-repeat;
+  background-image: url('https://via.placeholder.com/1920x1080'); /* Cambia esto a tu imagen */
+}
+
+.container {
+  height: 14%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.274);
+}
+
+.menu-container {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente negro */
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
